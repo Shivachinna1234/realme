@@ -12,7 +12,8 @@ node {
     stage('maven version') {   
 	
 	   sh 'mvn --version'
-      
+    
+    
     
     }
     stage('maven validate') {   
@@ -37,5 +38,4 @@ node {
     stage('maven deploy') {   
 	
 	   sh 'mvn deploy'
-    }
 }
